@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaEnvelope, FaPhone, FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaEnvelope, FaPhone, FaEye, FaEyeSlash } from "react-icons/fa";
 
 const CustomInput = ({ type, label, required, ...rest }) => {
   const [error, setError] = useState("");
